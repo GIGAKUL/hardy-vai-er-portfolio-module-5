@@ -93,6 +93,16 @@ nav a {
   justify-content: space-between;
   gap: 10px;
 }
+.btn1{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    color: #fd6e0a;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+  }
+
 .banner-greeting {
   color: #474747;
   font-size: 45px;
@@ -170,12 +180,12 @@ main {
 .skill {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 5px;
-  background: #FFF;
+  background: #fff;
   padding: 30px 33px;
   padding: 33px;
-  transition: all .3s ease-in-out ;
+  transition: all 0.3s ease-in-out;
 }
-.skill:hover{
+.skill:hover {
   transform: scale(1.1);
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
@@ -193,11 +203,52 @@ main {
   padding-top: 30px;
 }
 /* Resume section styles */
-.resume-colum-title{
-    color: #474747;
-font-size: 30px;
-font-weight: 700;
+.resume-colum-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
 }
-.resume-container{
+.resume-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 113px;
+}
+.resume-item{
+    margin-top: 30px;
+}
+.resume-item-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.resume-item-institute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.resume-item-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  font-style: normal;
+
+}
+.resume-container hr{
+  margin-top: 30px  ;
+}
+.download-cv{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.btn3{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.resume{
+    margin:130px 0;
 }
