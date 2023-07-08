@@ -169,8 +169,15 @@ main {
 }
 .skill {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  background: #FFF;
   padding: 30px 33px;
   padding: 33px;
+  transition: all .3s ease-in-out ;
+}
+.skill:hover{
+  transform: scale(1.1);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .skill-description {
   color: #757575;
