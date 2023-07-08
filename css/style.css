@@ -158,7 +158,30 @@ main {
   font-weight: bold;
   line-height: 30px;
 }
+/* Skills Related styles */
 
-.what-i-do-des{
-    padding:30px 150px ;
+.what-i-do-des {
+  padding: 30px 150px;
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px 33px;
+  padding: 33px;
+}
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 20px;
+}
+.skill-title {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 30px;
 }
